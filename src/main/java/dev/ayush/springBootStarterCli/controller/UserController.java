@@ -2,10 +2,12 @@ package dev.ayush.springBootStarterCli.controller;
 
 import dev.ayush.springBootStarterCli.model.User;
 import dev.ayush.springBootStarterCli.service.UserService;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
 import java.util.Scanner;
 
+@Controller
 public class UserController {
     private final UserService userService;
 
